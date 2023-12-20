@@ -16,11 +16,8 @@ app.use(express.json());
 const db = knex({
     client: 'pg',
     connection: {
-        host : '127.0.0.1',
-        port : 5432,
-        user : 'szymon',
-        password : 'lujek123',
-        database : 'smartbrain'
+        connectionString: process.env.DATABASE_URL,
+        ssl: true
     }
 });
 
