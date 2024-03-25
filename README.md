@@ -54,7 +54,7 @@ npm start
 
 ## Contributors
 
-- [Your Name](https://github.com/SzymonHarajda)
+- [Szymon Harajda](https://github.com/SzymonHarajda)
 
 ## License
 
